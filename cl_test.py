@@ -16,5 +16,9 @@ import subprocess
 # )
 
 a= subprocess.run('alembic init alembic'.split(), capture_output=True, text=True, check=True)
+# subprocess.run('alembic init alembic', shell=True)
 
-b= subprocess.run(f'alembic init alembic'.split(), capture_output=True, text=True, check=True)
+# b= subprocess.run(f'alembic init alembic'.split(), capture_output=True, text=True, check=True)
+
+# subprocess.run('bash -c "conda activate base; python -V"', shell=True)
+
